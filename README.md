@@ -16,8 +16,8 @@ This project aims to develop a program that performs operations on data sets, su
 ### Sample Input File
 
 ```4```
-U
-3, 5, 67, 7
+```U```
+```3, 5, 67, 7```
 1, 2, 3, 4
 I
 1, 2, 3, 4, 5
