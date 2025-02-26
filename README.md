@@ -18,16 +18,16 @@ This project aims to develop a program that performs operations on data sets, su
 ```4```
 ```U```
 ```3, 5, 67, 7```
-1, 2, 3, 4
-I
-1, 2, 3, 4, 5
-4, 5
-D
-1, A, C, 34
-A, C, D, 23
-C
-3, 4, 5, 5, A, B, R
-1, B, C, D, 1
+```1, 2, 3, 4```
+```I```
+```1, 2, 3, 4, 5```
+```4, 5```
+```D```
+```1, A, C, 34```
+```A, C, D, 23```
+```C```
+```3, 4, 5, 5, A, B, R```
+```1, B, C, D, 1```
 
 ### Sample Output
 
