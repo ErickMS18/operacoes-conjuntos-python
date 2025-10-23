@@ -1,56 +1,64 @@
-# Set Operations in Python
+# Operações com Conjuntos em Python
 
-This project aims to develop a program that performs operations on data sets, such as **union**, **intersection**, **difference**, and **cartesian product**. The program is developed in **Python** and takes as input a text file (`.txt`) containing the data and operations to be performed.
+Este projeto tem como objetivo desenvolver um programa que realiza operações em conjuntos de dados, como **união**, **interseção**, **diferença** e **produto cartesiano**.
+O programa é desenvolvido em Python e recebe como entrada um arquivo de texto (.txt) contendo os dados e as operações a serem executadas.
 
-## Project Requirements
+## Requisitos do Projeto
 
-- The program must read an input text file with the following format:
-  1. The first line contains the number of operations to be performed.
-  2. The following lines describe the operations and the sets involved:
-     - **U**: Union
-     - **I**: Intersection
-     - **D**: Difference
-     - **C**: Cartesian product
-  3. Each operation is followed by two lines containing the elements of the sets, separated by commas.
+O programa deve ler um arquivo de texto de entrada com o seguinte formato:
 
-### Sample Input File
+    1. A primeira linha contém o número de operações a serem realizadas.
 
-```4```
+    2. As linhas seguintes descrevem as operações e os conjuntos envolvidos:
 
-```U```
+      U: União
 
-```3, 5, 67, 7```
+      I: Interseção
 
-```1, 2, 3, 4```
+      D: Diferença
 
-```I```
+      C: Produto cartesiano
 
-```1, 2, 3, 4, 5```
+    3. Cada operação é seguida por duas linhas contendo os elementos dos conjuntos, separados por vírgulas.
 
-```4, 5```
+### Exemplo de Arquivo de Entrada
 
-```D```
+4
 
-```1, A, C, 34```
+U
 
-```A, C, D, 23```
+3, 5, 67, 7
 
-```C```
+1, 2, 3, 4
 
-```3, 4, 5, 5, A, B, R```
+I
 
-```1, B, C, D, 1```
+1, 2, 3, 4, 5
 
-### Sample Output
+4, 5
 
-For the union operation (U) between the sets `{3, 5, 67, 7}` and `{1, 2, 3, 4}`, the output will be:
+D
 
-Union: set 1 {3, 5, 67, 7}, set 2 {1, 2, 3, 4}. Result: {3, 5, 67, 7, 1, 2, 4}
+1, A, C, 34
 
+A, C, D, 23
 
-### How to Run
+C
 
-- The code is available in the project folder, along with the test files.
-- The program can be run in the terminal or output the results to a file.
+3, 4, 5, 5, A, B, R
 
-**Note**: The output must be formatted correctly, as shown in the example above, to avoid losing points in the evaluation.
+1, B, C, D, 1
+
+### Exemplo de Saída
+
+Para a operação de união (U) entre os conjuntos {3, 5, 67, 7} e {1, 2, 3, 4}, a saída será:
+
+União: conjunto 1 {3, 5, 67, 7}, conjunto 2 {1, 2, 3, 4}. Resultado: {3, 5, 67, 7, 1, 2, 4}
+
+### Como Executar
+
+O código está disponível na pasta do projeto, junto com os arquivos de teste.
+
+O programa pode ser executado no terminal ou gerar a saída em um arquivo.
+
+**Observação**: A saída deve estar formatada corretamente, conforme mostrado no exemplo acima, para evitar erros.
